@@ -317,6 +317,7 @@
 
 .about__text p:last-child {
     margin-bottom: 0px;
+    letter-spacing: 0em;
 }
 
 .about__text span {
@@ -328,18 +329,29 @@
 }
 
 .about__text span:nth-child(3n) {
-    letter-spacing: -0.01em;
+    letter-spacing: 0.01em;
 }
 
 .about__text span:nth-child(4n) {
+    letter-spacing: -0.01em;
+}
+.about__text span:nth-child(5n) {
+    letter-spacing: 0.01em;
+}
+.about__text span:nth-child(6n) {
+    letter-spacing: 0em;
+}
+.about__text span:nth-child(7n) {
     letter-spacing: 0.03em;
 }
-
 .about__text p:last-child span:nth-child(1n) {
     letter-spacing: 0.04em;
 }
 
 .about__text p:last-child span:nth-child(2n) {
+    letter-spacing: 0.01em;
+}
+.about__text p:last-child span:nth-child(3n) {
     letter-spacing: 0.01em;
 }
 
