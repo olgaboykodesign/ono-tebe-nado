@@ -51,7 +51,10 @@ a.header__logo {
   font-size: 18px;
   font-style: normal;
   min-width: 240px;
-  justify-self: end;
+}
+
+header__address {
+justify-self: end;
 }
 
 .overlay {
@@ -296,10 +299,6 @@ a.header__logo {
   display: grid;
   grid-template-columns: 1fr max-content 1fr;
   justify-content: space-between;
-}
-
-.footer .address {
-  justify-self: start;
 }
 
 .footer__menu {
