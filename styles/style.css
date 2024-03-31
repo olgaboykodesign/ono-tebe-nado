@@ -164,6 +164,7 @@ a.header__logo {
 .lots__card-list {
   display: flex;
   gap: 25px;
+  flex-grow: 1;
   flex-wrap: wrap;
   flex-direction: row;
 }
@@ -209,10 +210,6 @@ a.header__logo {
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-}
-
-.lots__card-list {
-  flex-grow: 1;
 }
 
 .card__title {
