@@ -301,8 +301,11 @@ a.header__logo {
   justify-content: space-between;
 }
 
-.footer .address a {
+.footer a {
   text-decoration: none;
+}
+
+.footer .address a {
   border-bottom: 1px solid black;
 }
 
@@ -322,7 +325,6 @@ a.header__logo {
 }
 
 .footer__menu-link {
-  text-decoration: none;
   border-bottom: 1px solid;
 }
 
